@@ -1,4 +1,5 @@
 from image_cap import caption_image
+import gradio as gr
 
 iface = gr.Interface(
     fn=caption_image, 
